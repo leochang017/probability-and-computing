@@ -1,6 +1,6 @@
 # Cycle 1 — Log
 
-**Chapter:**   
+**Chapter:** B&H ch. 1 — Probability and counting  
 **Date:** 2026-10-20
 
 ## What I learned

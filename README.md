@@ -14,8 +14,8 @@ solved problems and 18 programs in this one place.
 | Cycle | Chapter | Topic | Program | Status |
 |------:|---------|-------|---------|--------|
 | 1 | B&H ch. 1 | Probability and counting (birthday problem) | [cycle01/simulation.py](cycle01/simulation.py) | done |
-| 2 | B&H ch. 2 | Conditional probability | [cycle02/simulation.py](cycle02/simulation.py) | upcoming |
-| 3 | B&H ch. 3 | Random variables and their distributions | [cycle03/simulation.py](cycle03/simulation.py) | upcoming |
+| 2 | B&H ch. 2 | Conditional probability (naive Bayes spam filter) | [cycle02/simulation.py](cycle02/simulation.py) | done |
+| 3 | B&H ch. 3 | Random variables and their distributions (gambler's ruin) | [cycle03/simulation.py](cycle03/simulation.py) | done |
 | 4 | B&H ch. 4 | Expectation | [cycle04/simulation.py](cycle04/simulation.py) | upcoming |
 | 5 | B&H ch. 5 | Continuous random variables | [cycle05/simulation.py](cycle05/simulation.py) | upcoming |
 | 6 | B&H ch. 6 | Moments | [cycle06/simulation.py](cycle06/simulation.py) | upcoming |
