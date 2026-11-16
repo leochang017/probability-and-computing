@@ -65,3 +65,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""python3 cycle03/simulation.py
+  python3 cycle03/simulation.py 5 20
+  python3 cycle03/simulation.py 50 100 20000
+
+  - With no arguments it starts at $10, aims for $20, and plays 100,000 games per coin.
+  - The arguments are starting money, goal, and number of games, in that order.
+"""

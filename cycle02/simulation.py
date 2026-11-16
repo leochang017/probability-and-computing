@@ -44,9 +44,12 @@ def train(messages):
     for label, text in messages:
         message_counts[label] += 1
         for word in get_words(text):
+            #word_counts is for spam and not spam how many times each word appeared
             word_counts[label][word] = word_counts[label].get(word, 0) + 1
             total_words[label] += 1
             vocabulary.add(word)
+            #total words is how many words in total were in spam and not spam
+            #vocabulary is a set of all the different words seen in any message, so it can be used to know how many different words there are in total
 
     return message_counts, word_counts, total_words, vocabulary
 
@@ -168,3 +171,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""python3 cycle02/simulation.py
+  python3 cycle02/simulation.py "you won a free cash prize call now" "see you at practice tonight"
+
+
+  """

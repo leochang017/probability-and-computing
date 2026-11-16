@@ -39,3 +39,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    """ cd ~/Documents/GitHub/probability-and-computing
+
+  Cycle 1: birthday problem
+
+  python3 cycle01/simulation.py
+  python3 cycle01/simulation.py 30
+  python3 cycle01/simulation.py 30 20000
+
+  - With no arguments it runs group sizes 23, 50 and 70 with 100,000 trials each.
+  - The first argument is the number of people.
+  - The second argument is the number of trials.
+"""
